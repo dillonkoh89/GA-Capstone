@@ -103,7 +103,7 @@ Here is the performance of each EfficientDet-Lite models compared to each others
 
 The EfficientDet architect employs EfficientNet as the backbone network, BiFPN as the feature network and the architecture can be shown in the figure below -
 
-<img src="C:\Users\dillo\OneDrive\Desktop\EfficientDet.PNG" style="zoom:100%;" />
+![](https://github.com/dillonkoh89/GA-Capstone/blob/main/EfficientDet.PNG)
 
 ### Preparing the images
 
@@ -111,7 +111,7 @@ Before training my object detection model, I have to prepared the images and ann
 
 An example of the annotated images is shown in the figure below.
 
-![](C:\Users\dillo\OneDrive\Desktop\Labelimg pic.PNG)
+![](https://github.com/dillonkoh89/GA-Capstone/blob/main/Labelimg%20pic.PNG)
 
 Upon completion of the annotation of all images, i then proceed to split my images an respective annotations into 3 different groups -
 
@@ -194,7 +194,7 @@ First, I will go through all 100 images and classify the performance of the mode
 
 Based on the above definitions and methodology, the Precision and Recall scores of 0.973 and 0.782 are achieved respectively. The reason for a lower recall score is because of 102 False Negatives were observed. The confusion matrix is shown below:
 
-![](C:\Users\dillo\OneDrive\Desktop\confusion matrix capstone.PNG)
+![](https://github.com/dillonkoh89/GA-Capstone/blob/main/confusion%20matrix%20capstone.PNG)
 
 After going through 100 test images, I have also come up with a summary of the error analysis and I have also provided my reasons behind the errors committed by the the trained model -
 
