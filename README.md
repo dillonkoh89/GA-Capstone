@@ -48,7 +48,7 @@ I will be doing the following -
 
 - [`EfficientNetB0`](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetB0) architecture from `tf.keras.applications` as our base model
 
-![](C:\Users\dillo\OneDrive\Desktop\EfficientNet.png)
+![](https://github.com/dillonkoh89/GA-Capstone/blob/main/EfficientNet.png)
 
 - Sigmoid activation as the output layer
 - Binary crossentropy as the loss function since we're dealing with only 2 classes (positive or negative)
